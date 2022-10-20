@@ -28,3 +28,4 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - run: chmod +x "${{ github.workspace }}/demo.bat"
+      - run: /demo.bat
