@@ -1,1 +1,2 @@
 echo $CERTIFICATE_PASS
+echo $TEST
